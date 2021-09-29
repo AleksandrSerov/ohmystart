@@ -1,12 +1,13 @@
 {
-    "compilerOptions": {
-      "esModuleInterop": true,
-        "jsx": "react-jsx",
-      "baseUrl": "./src",
-      "paths": {
-        "~/*": ["./*"]
-      },
-      "typeRoots": ["node_modules/@types"]
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "baseUrl": "./src",
+    "paths": {
+      "~/*": ["./*"]
     },
-    "include": ["src/**/*"]
-  }
+    "typeRoots": ["node_modules/@types"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["src/**/*.test.*"]
+}
