@@ -7,6 +7,7 @@
     "build": "parcel build ./src/index.html",
     "test": "test:unit",
     "test:unit": "jest",
+    "test:e2e:open": "npm run start & cypress open",
     "start": "tsc --noEmit --watch & parcel ./src/index.html --port 8080"
   },
   "author": "",
@@ -17,10 +18,13 @@
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "@cypress/webpack-preprocessor": "^5.9.1",
+    "@testing-library/cypress": "^8.0.1",
     "@types/jest": "^27.0.2",
     "@types/react": "^17.0.24",
     "@types/react-dom": "^17.0.9",
     "autoprefixer": "^10.3.6",
+    "cypress": "^8.5.0",
     "jest": "^27.2.4",
     "parcel-bundler": "^1.12.5",
     "postcss": "^8.3.8",
@@ -30,6 +34,7 @@
     "postcss-nested": "^5.0.6",
     "postcss-url": "^10.1.3",
     "ts-jest": "^27.0.5",
+    "ts-loader": "^9.2.6",
     "typescript": "^4.4.3"
   },
   "browserslist": {

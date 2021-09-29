@@ -1,0 +1,8 @@
+{
+    "baseUrl": "http://localhost:8080",
+    "testFiles": "**/*.spec.ts",
+    "video": false,
+    "modifyObstructiveCode": false,
+    "pluginsFile": "cypress/plugins/index.ts",
+    "supportFile": "cypress/support/index.ts"
+}

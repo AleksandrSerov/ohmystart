@@ -4,3 +4,4 @@ dist/
 .cache
 yarn.lock
 yarn-error.log
+cypress/fixtures

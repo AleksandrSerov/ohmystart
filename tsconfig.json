@@ -1,12 +1,14 @@
 {
   "compilerOptions": {
     "esModuleInterop": true,
+    "skipLibCheck": true,
     "jsx": "react-jsx",
     "baseUrl": "./src",
     "paths": {
       "~/*": ["./*"]
     },
-    "typeRoots": ["node_modules/@types"]
+    "typeRoots": ["./node_modules/@types"],
+    "types": ["cypress"]
   },
   "include": ["src/**/*"],
   "exclude": ["src/**/*.test.*"]
