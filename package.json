@@ -83,6 +83,6 @@
         ]
     },
     "simple-git-hooks": {
-        "pre-commit": "npm lint-staged"
+        "pre-commit": "npx lint-staged"
     }
 }
