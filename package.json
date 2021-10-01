@@ -35,6 +35,7 @@
         "eslint-config-prettier": "^8.3.0",
         "eslint-plugin-react": "^7.26.1",
         "jest": "^27.2.4",
+        "lint-staged": "^11.1.2",
         "parcel-bundler": "^1.12.5",
         "postcss": "^8.3.8",
         "postcss-custom-properties": "^12.0.0",
@@ -71,8 +72,17 @@
             "**/*.test.ts?(x)"
         ]
     },
+    "lint-staged": {
+        "{src,cypress}/**/*.{ts,tsx}": [
+            "prettier-eslint --write",
+            "eslint"
+        ],
+        "*.css": [
+            "prettier-eslint --write",
+            "stylelint"
+        ]
+    },
     "simple-git-hooks": {
-        "pre-commit": "npx lint-staged",
-        "pre-push": "cd ../../ && npm run format"
+        "pre-commit": "lint-staged"
     }
 }
