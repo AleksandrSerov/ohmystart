@@ -1,15 +1,15 @@
 {
-  "compilerOptions": {
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "jsx": "react-jsx",
-    "baseUrl": "./src",
-    "paths": {
-      "~/*": ["./*"]
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "jsx": "react-jsx",
+        "baseUrl": "./src",
+        "paths": {
+            "~/*": ["./*"]
+        },
+        "typeRoots": ["./node_modules/@types"],
+        "types": ["cypress"]
     },
-    "typeRoots": ["./node_modules/@types"],
-    "types": ["cypress"]
-  },
-  "include": ["src/**/*"],
-  "exclude": ["src/**/*.test.*"]
+    "include": ["src/**/*"],
+    "exclude": ["src/**/*.test.*"]
 }

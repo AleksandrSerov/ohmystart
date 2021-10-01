@@ -1,12 +1,8 @@
 {
     "compilerOptions": {
-        "types": [
-            "node",
-            "cypress",
-            "@testing-library/cypress",
-        ]
+        "types": ["node", "cypress", "@testing-library/cypress"]
     },
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    "skipLibCheck": true,
+    "skipLibCheck": true
 }

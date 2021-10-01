@@ -1,0 +1,8 @@
+node_modules
+dist/
+.parcel-cache
+.cache
+yarn.lock
+yarn-error.log
+cypress/fixtures
+package-lock.json
