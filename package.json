@@ -4,8 +4,9 @@
     "description": "East start react project",
     "scripts": {
         "build": "parcel build ./src/index.html",
-        "test": "test:unit",
+        "test": "npm run test:unit & npm run test:e2e",
         "test:unit": "jest",
+        "test:e2e": "npm run start & cypress run",
         "test:e2e:open": "npm run start & cypress open",
         "start": "tsc --noEmit --watch & parcel ./src/index.html --port 8080",
         "lint:css": "stylelint ./src/**/*.css",

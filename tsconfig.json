@@ -8,8 +8,7 @@
             "~/*": ["./*"]
         },
         "typeRoots": ["./node_modules/@types"],
-        "types": ["cypress"]
+        "types": ["jest"]
     },
-    "include": ["src/**/*"],
-    "exclude": ["src/**/*.test.*"]
+    "include": ["src/**/*"]
 }
