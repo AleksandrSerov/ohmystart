@@ -12,7 +12,8 @@
         "lint:css": "stylelint ./src/**/*.css",
         "lint:scripts": "eslint .",
         "lint": "npm run lint:css & npm run lint:scripts",
-        "format": "prettier-eslint --write \"./{src,cypress}/**/*.{ts,tsx,css}\""
+        "format": "prettier-eslint --write \"./{src,cypress}/**/*.{ts,tsx,css}\"",
+        "postinstall": "npx npx simple-git-hooks"
     },
     "author": "",
     "license": "ISC",
@@ -22,6 +23,8 @@
         "react-dom": "17.0.2"
     },
     "devDependencies": {
+        "@commitlint/cli": "^13.2.0",
+        "@commitlint/config-conventional": "^13.2.0",
         "@cypress/webpack-preprocessor": "^5.9.1",
         "@testing-library/cypress": "^8.0.1",
         "@types/jest": "^27.0.2",
@@ -83,6 +86,6 @@
         ]
     },
     "simple-git-hooks": {
-        "pre-commit": "npx lint-staged"
+        "pre-commit": "commitlint npx lint-staged"
     }
 }
