@@ -1,8 +1,7 @@
 {
     "name": "ohmystart",
     "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
+    "description": "East start react project",
     "scripts": {
         "build": "parcel build ./src/index.html",
         "test": "test:unit",
@@ -13,9 +12,9 @@
         "lint:scripts": "eslint .",
         "lint": "npm run lint:css & npm run lint:scripts",
         "format": "prettier-eslint --write \"./{src,cypress}/**/*.{ts,tsx,css}\"",
-        "postinstall": "npx npx simple-git-hooks"
+        "postinstall": "npx simple-git-hooks"
     },
-    "author": "",
+    "author": "Aleksandr Serov",
     "license": "ISC",
     "dependencies": {
         "parcel": "^2.0.0-nightly.843",
