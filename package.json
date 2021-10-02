@@ -86,7 +86,7 @@
         ]
     },
     "simple-git-hooks": {
-        "pre-commit": "npx commitlint --edit $1 & npx lint-staged",
-        "commit-msg": ""
+        "pre-commit": "npx lint-staged",
+        "commit-msg": "npx commitlint"
     }
 }
