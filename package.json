@@ -86,6 +86,6 @@
         ]
     },
     "simple-git-hooks": {
-        "pre-commit": "commitlint npx lint-staged"
+        "pre-commit": "npx commitlint & npx lint-staged"
     }
 }
