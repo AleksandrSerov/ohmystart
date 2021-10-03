@@ -1,5 +1,6 @@
 node_modules
 dist/
+server/
 .parcel-cache
 .cache
 yarn.lock
