@@ -4,7 +4,7 @@
     "description": "East start react project",
     "scripts": {
         "start": "tsc --noEmit --watch & parcel ./src/index.html --port 8080",
-        "test": "npm run test:unit & npm run test:e2e",
+        "test": "npm run test:unit && npm run test:e2e",
         "test:unit": "jest",
         "test:e2e": "start-server-and-test start :8080 \"cypress run\"",
         "test:e2e:open": "start-server-and-test start :8080 \"cypress open\"",
