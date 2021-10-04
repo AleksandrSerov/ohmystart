@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "East start react project",
     "scripts": {
-        "start": "tsc --noEmit --watch && parcel ./src/index.html --port 8080",
+        "start": "tsc --noEmit --watch & parcel ./src/index.html --port 8080",
         "test": "npm run test:unit & npm run test:e2e",
         "test:unit": "jest",
         "test:e2e": "start-server-and-test start :8080 \"cypress run\"",
@@ -21,7 +21,7 @@
     "license": "ISC",
     "dependencies": {
         "express": "4.17.1",
-        "parcel": "2.0.0-nightly.843",
+        "parcel": "2.0.0-rc.0",
         "react": "17.0.2",
         "react-dom": "17.0.2"
     },
