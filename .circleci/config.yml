@@ -20,5 +20,3 @@ workflows:
     jobs:
       - node/run:
           npm-run: test:unit
-      - node/run:
-          npm-run: test:e2e
