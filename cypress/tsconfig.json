@@ -3,7 +3,5 @@
     "compilerOptions": {
         "types": ["node", "cypress", "@testing-library/cypress"]
     },
-    "resolveJsonModule": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true
+    "include": ["**/*/*.ts"]
 }

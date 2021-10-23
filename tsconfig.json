@@ -12,5 +12,6 @@
         "types": ["jest"],
         "lib": ["dom", "ESNext"]
     },
+    "resolveJsonModule": true,
     "include": ["src/**/*"]
 }
