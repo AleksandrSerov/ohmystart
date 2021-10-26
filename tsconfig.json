@@ -10,8 +10,9 @@
         },
         "typeRoots": ["./node_modules/@types"],
         "types": ["jest"],
-        "lib": ["dom", "ESNext"]
+        "lib": ["dom", "ESNext"],
+        "resolveJsonModule": true,
     },
-    "resolveJsonModule": true,
+
     "include": ["src/**/*"]
 }
