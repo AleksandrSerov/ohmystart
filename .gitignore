@@ -3,6 +3,5 @@ dist/
 .DS_Store
 .parcel-cache
 .cache
-yarn.lock
 yarn-error.log
 cypress/fixtures
