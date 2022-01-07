@@ -6,3 +6,5 @@ dist/
 yarn-error.log
 cypress/fixtures
 package-lock.json
+.vscode
+cypress/fixtures
