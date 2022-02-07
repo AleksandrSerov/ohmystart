@@ -43,7 +43,7 @@
 		"lint-staged": "^12.1.5",
 		"parcel-transformer-ts-css-modules": "^1.0.12",
 		"postcss": "^8.3.8",
-		"postcss-custom-properties": "^12.0.0",
+		"postcss-custom-properties": "^12.1.4",
 		"postcss-import": "^14.0.2",
 		"postcss-modules": "^4.2.2",
 		"postcss-nested": "^5.0.6",
