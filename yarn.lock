@@ -2347,18 +2347,17 @@ at-least-node@^1.0.0:
   resolved "https://registry.yarnpkg.com/at-least-node/-/at-least-node-1.0.0.tgz#602cd4b46e844ad4effc92a8011a3c46e0238dc2"
   integrity sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==
 
-autoprefixer@^9.0.0:
-  version "9.8.8"
-  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-9.8.8.tgz#fd4bd4595385fa6f06599de749a4d5f7a474957a"
-  integrity sha512-eM9d/swFopRt5gdJ7jrpCwgvEMIayITpojhkkSMRsFHYuH5bkSQ4p/9qTEHtmNudUZh22Tehu7I6CxAW0IXTKA==
+autoprefixer@^10.4.2:
+  version "10.4.2"
+  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-10.4.2.tgz#25e1df09a31a9fba5c40b578936b90d35c9d4d3b"
+  integrity sha512-9fOPpHKuDW1w/0EKfRmVnxTDt8166MAnLI3mgZ1JCnhNtYWxcJ6Ud5CO/AVOZi/AvFa8DY9RTy3h3+tFBlrrdQ==
   dependencies:
-    browserslist "^4.12.0"
-    caniuse-lite "^1.0.30001109"
+    browserslist "^4.19.1"
+    caniuse-lite "^1.0.30001297"
+    fraction.js "^4.1.2"
     normalize-range "^0.1.2"
-    num2fraction "^1.2.2"
-    picocolors "^0.2.1"
-    postcss "^7.0.32"
-    postcss-value-parser "^4.1.0"
+    picocolors "^1.0.0"
+    postcss-value-parser "^4.2.0"
 
 available-typed-arrays@^1.0.5:
   version "1.0.5"
@@ -2607,7 +2606,7 @@ browserify-zlib@^0.2.0:
   dependencies:
     pako "~1.0.5"
 
-browserslist@^4.0.0, browserslist@^4.12.0, browserslist@^4.14.5, browserslist@^4.16.6, browserslist@^4.17.5, browserslist@^4.6.6:
+browserslist@^4.0.0, browserslist@^4.14.5, browserslist@^4.16.6, browserslist@^4.17.5, browserslist@^4.19.1, browserslist@^4.6.6:
   version "4.19.1"
   resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.19.1.tgz#4ac0435b35ab655896c31d53018b6dd5e9e4c9a3"
   integrity sha512-u2tbbG5PdKRTUoctO3NBD8FQ5HdPh1ZXPHzp1rwaa5jTc+RV9/+RlWiAIKmjRPQF+xbGM9Kklj5bZQFa2s/38A==
@@ -2712,10 +2711,10 @@ caniuse-api@^3.0.0:
     lodash.memoize "^4.1.2"
     lodash.uniq "^4.5.0"
 
-caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001286:
-  version "1.0.30001296"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001296.tgz#d99f0f3bee66544800b93d261c4be55a35f1cec8"
-  integrity sha512-WfrtPEoNSoeATDlf4y3QvkwiELl9GyPLISV5GejTbbQRtQx4LhsXmc9IQ6XCL2d7UxCyEzToEZNMeqR79OUw8Q==
+caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001286, caniuse-lite@^1.0.30001297:
+  version "1.0.30001309"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001309.tgz#e0ee78b9bec0704f67304b00ff3c5c0c768a9f62"
+  integrity sha512-Pl8vfigmBXXq+/yUz1jUwULeq9xhMJznzdc/xwl4WclDAuebcTHVefpz8lE/bMI+UN7TOkSSe7B7RnZd6+dzjA==
 
 caseless@~0.12.0:
   version "0.12.0"
@@ -4384,6 +4383,11 @@ format@^0.2.0:
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/format/-/format-0.2.2.tgz#d6170107e9efdc4ed30c9dc39016df942b5cb58b"
   integrity sha1-1hcBB+nv3E7TDJ3DkBbflCtctYs=
+
+fraction.js@^4.1.2:
+  version "4.1.3"
+  resolved "https://registry.yarnpkg.com/fraction.js/-/fraction.js-4.1.3.tgz#be65b0f20762ef27e1e793860bc2dfb716e99e65"
+  integrity sha512-pUHWWt6vHzZZiQJcM6S/0PXfS+g6FM4BF5rj9wZyreivhQPdsh5PpE25VtSNxq80wHS5RfY51Ii+8Z0Zl/pmzg==
 
 from@~0:
   version "0.1.7"
@@ -6413,11 +6417,6 @@ nullthrows@^1.1.1:
   resolved "https://registry.yarnpkg.com/nullthrows/-/nullthrows-1.1.1.tgz#7818258843856ae971eae4208ad7d7eb19a431b1"
   integrity sha512-2vPPEi+Z7WqML2jZYddDIfy5Dqb0r2fze2zTxNNknZaFpVHU3mFB3R+DWeJWGVx0ecvttSGlJTI+WG+8Z4cDWw==
 
-num2fraction@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/num2fraction/-/num2fraction-1.2.2.tgz#6f682b6a027a4e9ddfa4564cd2589d1d4e669ede"
-  integrity sha1-b2gragJ6Tp3fpFZM0lidHU5mnt4=
-
 nwsapi@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/nwsapi/-/nwsapi-2.2.0.tgz#204879a9e3d068ff2a55139c2c772780681a38b7"
@@ -7153,7 +7152,7 @@ postcss@6.0.1:
     source-map "^0.5.6"
     supports-color "^3.2.3"
 
-postcss@7.x.x, postcss@^7.0.32:
+postcss@7.x.x:
   version "7.0.39"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.39.tgz#9624375d965630e2e1f2c02a935c82a59cb48309"
   integrity sha512-yioayjNbHn6z1/Bywyb2Y4s3yvDAeXGOyxqD+LnVOinq6Mdmd++SW2wUNVzavyyHxd6+DxzWGIuosg6P1Rj8uA==
