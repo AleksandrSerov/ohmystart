@@ -1,18 +1,19 @@
 {
-    "compilerOptions": {
-        "esModuleInterop": true,
-        "skipLibCheck": true,
-        "strict": true,
-        "jsx": "react-jsx",
-        "baseUrl": "./src",
-        "paths": {
-            "~/*": ["./*"]
-        },
-        "typeRoots": ["./node_modules/@types"],
-        "types": ["jest"],
-        "lib": ["dom", "ESNext"],
-        "resolveJsonModule": true,
-    },
+	"compilerOptions": {
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"jsx": "react-jsx",
+		"baseUrl": "./src",
+		"paths": {
+			"~/*": ["./*"]
+		},
+		"plugins": [{ "name": "typescript-plugin-css-modules" }],
+		"typeRoots": ["./node_modules/@types"],
+		"types": ["jest"],
+		"lib": ["dom", "ESNext"],
+		"resolveJsonModule": true
+	},
 
-    "include": ["src/**/*"]
+	"include": ["src/**/*"]
 }
