@@ -6881,13 +6881,13 @@ pako@~1.0.5:
   resolved "https://registry.yarnpkg.com/pako/-/pako-1.0.11.tgz#6c9599d340d54dfd3946380252a35705a6b992bf"
   integrity sha512-4hLB8Py4zZce5s4yd9XzopqwVv/yGNhV1Bl8NTmCq1763HeK2+EwVTv+leGeL13Dnh2wfbqowVPXCIO0z4taYw==
 
-parcel-transformer-ts-css-modules@^1.0.12:
-  version "1.0.12"
-  resolved "https://registry.yarnpkg.com/parcel-transformer-ts-css-modules/-/parcel-transformer-ts-css-modules-1.0.12.tgz#5de8417da5c0cc057aa95784bbb17f31e1f6d3be"
-  integrity sha512-UZAhPD6d0c+Fch1jaCQGte9kV8WflejlV9KZd2NCG7X7wSaHhnfIXiVlc3ScTo21kylmgjIezvscCxBI0izKlw==
+parcel-transformer-ts-css-modules@^1.0.14:
+  version "1.0.14"
+  resolved "https://registry.yarnpkg.com/parcel-transformer-ts-css-modules/-/parcel-transformer-ts-css-modules-1.0.14.tgz#97ade3e0c5a166e5802310918706f68616944312"
+  integrity sha512-8yXynRMpVYobwDXmQV72av1iVTTiNlPpCSgzsC42kK5p5y/ZqG/SZ/FS6AotaWgt+10P22xXyPOh8LRRILLJXQ==
   dependencies:
     "@parcel/plugin" "2.0.0"
-    typed-css-modules "0.7.0"
+    typed-css-modules "^0.7.0"
 
 parcel@^2.2.1:
   version "2.2.1"
@@ -9045,7 +9045,7 @@ type-fest@^0.8.1:
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.8.1.tgz#09e249ebde851d3b1e48d27c105444667f17b83d"
   integrity sha512-4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA==
 
-typed-css-modules@0.7.0:
+typed-css-modules@^0.7.0:
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/typed-css-modules/-/typed-css-modules-0.7.0.tgz#88b892a39ba7b8dd0ef2afb6cf728fff6c588f6c"
   integrity sha512-eNaAHKiao0ON0tkLE8ITma9Fx9MUDQjJwL+P9iCinGAIHSt2XKFVSx0A6GWLrbX/yNQjzzUmuJFikobSymZXng==
