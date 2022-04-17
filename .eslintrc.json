@@ -11,6 +11,8 @@
 
 		"plugin:@typescript-eslint/recommended",
 
+		"plugin:import/recommended",
+
 		"prettier"
 	],
 	"parser": "@typescript-eslint/parser",
@@ -22,10 +24,15 @@
 		"ecmaVersion": 12,
 		"sourceType": "module"
 	},
-	"plugins": ["react", "@typescript-eslint", "simple-import-sort"],
+	"plugins": ["react", "@typescript-eslint", "simple-import-sort", "unicorn"],
 	"settings": {
 		"react": {
 			"version": "detect"
+		},
+		"import/resolver": {
+			"node": {
+				"extensions": [".ts", ".tsx", ".js", ".jsx"]
+			}
 		}
 	},
 	"rules": {
@@ -43,12 +50,25 @@
 		"react/jsx-fragments": ["error", "element"],
 		"react/prop-types": "off",
 		"react/jsx-no-useless-fragment": ["error"],
+		"react/jsx-boolean-value": ["error", "always"],
 		"react/jsx-space-before-closing": ["error"],
 		"react/self-closing-comp": ["error"],
 		"react/no-array-index-key": ["error"],
 		"react/no-multi-comp": ["error"],
 
-		// Sort imports
+		// imports, file extensions
+		"import/no-extraneous-dependencies": [
+			"error",
+			{ "devDependencies": ["**/*.{stories,test,tests,spec}.{js,jsx,ts,tsx}"] }
+		],
+		"import/no-useless-path-segments": [
+			"error",
+			{
+				"noUselessIndex": true
+			}
+		],
+		"import/no-unresolved": ["error"],
+		"import/extensions": ["error"],
 		"simple-import-sort/imports": [
 			"error",
 			{
@@ -73,17 +93,68 @@
 				]
 			}
 		],
+		"unicorn/filename-case": [
+			"error",
+			{
+				"case": "kebabCase"
+			}
+		],
 
 		// Eslint
 		"arrow-body-style": ["error", "as-needed"],
 		"curly": ["error", "all"],
 		"eqeqeq": ["error"],
-		"no-extra-semi": ["error"],
-		"indent": ["error", "tab"],
+		"indent": ["error", "tab", { "SwitchCase": 1 }],
 		"no-unneeded-ternary": ["error"],
 		"arrow-spacing": ["error"],
 		"linebreak-style": ["error", "unix"],
 		"quotes": ["error", "single"],
-		"semi": ["error", "always"]
+		"semi": ["error", "always"],
+		"semi-spacing": ["error"],
+		"semi-style": ["error"],
+		"space-before-blocks": ["error"],
+		"no-extra-semi": ["error"],
+		"comma-dangle": ["error", "always-multiline"],
+		"comma-spacing": ["error"],
+		"space-in-parens": ["error"],
+		"switch-colon-spacing": ["error"],
+		"computed-property-spacing": ["error"],
+		"func-call-spacing": ["error"],
+		"key-spacing": ["error"],
+		"no-trailing-spaces": ["error"],
+		"no-shadow": ["warn"],
+		"padding-line-between-statements": [
+			"warn",
+			{ "blankLine": "always", "prev": ["const", "let", "var"], "next": "*" },
+			{ "blankLine": "always", "prev": "*", "next": "return" },
+			{ "blankLine": "any", "prev": ["const", "let", "var"], "next": ["const", "let", "var"] }
+		],
+		"quote-props": ["error", "as-needed"],
+
+		// Code smells
+		"complexity": ["warn", 20],
+		"no-restricted-properties": [
+			"error",
+			{
+				"object": "it",
+				"property": "only",
+				"message": "Did you forget to remove 'only' from this test?"
+			},
+			{
+				"object": "describe",
+				"property": "only",
+				"message": "Did you forget to remove 'only' from this test?"
+			},
+			{
+				"object": "context",
+				"property": "only",
+				"message": "Did you forget to remove 'only' from this test?"
+			},
+			{
+				"object": "test",
+				"property": "only",
+				"message": "Did you forget to remove 'only' from this test?"
+			}
+		]
 	}
 }
