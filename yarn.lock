@@ -1597,6 +1597,13 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
+"@sserov/eslint-plugin-dirnames@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@sserov/eslint-plugin-dirnames/-/eslint-plugin-dirnames-0.0.1.tgz#452e54c3d1eed116338ceb9d48400453162952ff"
+  integrity sha512-KSBn1E7doKyXyZpmO5RhrwXNp8As6mZH79zjDvCi5+CekwJBddRSA68O5CnLuZnx/I+933D1kFZGTZA5hz9QMg==
+  dependencies:
+    kebab-case "1.0.0"
+
 "@swc/helpers@^0.2.11":
   version "0.2.14"
   resolved "https://registry.npmjs.org/@swc/helpers/-/helpers-0.2.14.tgz"
@@ -6258,6 +6265,11 @@ jsprim@^2.0.2:
   dependencies:
     array-includes "^3.1.3"
     object.assign "^4.1.2"
+
+kebab-case@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/kebab-case/-/kebab-case-1.0.0.tgz#3f9e4990adcad0c686c0e701f7645868f75f91eb"
+  integrity sha1-P55JkK3K0MaGwOcB92RYaPdfkes=
 
 kind-of@^6.0.2, kind-of@^6.0.3:
   version "6.0.3"

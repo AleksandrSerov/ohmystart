@@ -25,7 +25,13 @@
 		"ecmaVersion": 12,
 		"sourceType": "module"
 	},
-	"plugins": ["react", "@typescript-eslint", "simple-import-sort", "unicorn"],
+	"plugins": [
+		"react",
+		"@typescript-eslint",
+		"simple-import-sort",
+		"unicorn",
+		"@sserov/dirnames"
+	],
 	"settings": {
 		"react": {
 			"version": "detect"
@@ -100,6 +106,7 @@
 				"case": "kebabCase"
 			}
 		],
+		"@sserov/dirnames/match-kebab-case": ["error"],
 
 		// Eslint
 		"arrow-body-style": ["error", "as-needed"],
