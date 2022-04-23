@@ -1604,6 +1604,11 @@
   dependencies:
     kebab-case "1.0.0"
 
+"@sserov/presets-lint@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@sserov/presets-lint/-/presets-lint-0.0.4.tgz#c09d421631efb22203ed8ac86b49e8b82ae07c50"
+  integrity sha512-mHccitDC6HQKJVTV1z2wyOkXYH6Zs/gfRz7bF57nFe6O4lOXBgUQ6J1hcaX0i8IYdR9CXIRdo7aAPhb+NA4Cug==
+
 "@swc/helpers@^0.2.11":
   version "0.2.14"
   resolved "https://registry.npmjs.org/@swc/helpers/-/helpers-0.2.14.tgz"
