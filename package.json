@@ -2,21 +2,30 @@
 	"name": "ohmystart",
 	"version": "1.0.0",
 	"description": "East start react project",
+	"keywords": [],
+	"homepage": "https://github.com/AleksandrSerov/ohmystart#readme",
+	"bugs": {
+		"url": "https://github.com/AleksandrSerov/ohmystart/issues"
+	},
+	"license": "ISC",
+	"author": "Aleksandr Serov",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/AleksandrSerov/ohmystart.git"
+	},
 	"scripts": {
 		"start": "tsc --noEmit --watch & parcel ./src/index.html --port 8080 --open --watch-for-stdin",
-		"test": "npm run test:unit && npm run test:e2e",
+		"test": "yarn test:unit && yarn test:e2e",
 		"test:unit": "jest",
 		"test:e2e": "start-server-and-test start :8080 \"cypress run\"",
 		"test:e2e:open": "start-server-and-test start :8080 \"cypress open\"",
-		"lint": "npm run lint:css && npm run lint:scripts",
+		"lint": "yarn lint:css && yarn lint:scripts",
 		"lint:css": "stylelint ./src/**/*.css",
 		"lint:scripts": "eslint .",
 		"format": "prettier-eslint --write \"./{src,cypress}/**/*.{ts,tsx,css}\"",
 		"build": "rm -rf dist && parcel build --no-source-maps ./src/index.html",
 		"postinstall": "npx simple-git-hooks"
 	},
-	"author": "Aleksandr Serov",
-	"license": "ISC",
 	"dependencies": {
 		"classnames": "^2.3.1",
 		"parcel": "^2.2.1",
@@ -93,7 +102,7 @@
 		]
 	},
 	"lint-staged": {
-		"{src,cypress}/**/*.{ts,tsx}": [
+		"/**/*.{js,jsx,ts,tsx}": [
 			"prettier-eslint --write",
 			"eslint"
 		],
@@ -103,6 +112,9 @@
 		]
 	},
 	"prettier": "@sserov/presets-lint/prettier",
+	"eslintConfig": {
+		"extends": "./node_modules/@sserov/presets-lint/eslint/index.js"
+	},
 	"commitlint": {
 		"extends": [
 			"./node_modules/@sserov/presets-lint/commitlint"
@@ -110,9 +122,6 @@
 	},
 	"stylelint": {
 		"extends": "./node_modules/@sserov/presets-lint/stylelint/index.js"
-	},
-	"eslintConfig": {
-		"extends": "./node_modules/@sserov/presets-lint/eslint/index.js"
 	},
 	"simple-git-hooks": {
 		"pre-commit": "npx lint-staged",
