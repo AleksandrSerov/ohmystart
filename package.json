@@ -33,7 +33,7 @@
 		"react-dom": "18.0.0"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "^16.2.3",
+		"@commitlint/cli": "^16.2.4",
 		"@commitlint/config-conventional": "^16.2.1",
 		"@cypress/webpack-preprocessor": "^5.9.1",
 		"@sserov/eslint-plugin-dirnames": "^1.0.0",
