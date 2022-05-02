@@ -1604,10 +1604,10 @@
   dependencies:
     kebab-case "1.0.0"
 
-"@sserov/presets-lint@0.0.7-faba4d":
-  version "0.0.7-faba4d"
-  resolved "https://registry.yarnpkg.com/@sserov/presets-lint/-/presets-lint-0.0.7-faba4d.tgz#ce48b35a416f0954b55904efecc5a136c5795cb6"
-  integrity sha512-mnDU6U5+7EJlbhsKKnc+aHP9WYBzSRxdWqqizM6Z3jCmOnvNF0kh/d+4LeUCW0WWcIXNVBZePpQarash9f6EZQ==
+"@sserov/presets-lint@^0.0.8":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@sserov/presets-lint/-/presets-lint-0.0.8.tgz#1521c61cf726263199e1d8bd545da701c0b24e0d"
+  integrity sha512-KggeyuY3HfZGDI1qTabIpgGCfu3yTrvDp1iW/M1U4Q/Uv1qHEFaVq9uSb3etH/aKDzD7wfdDc8XQ7MIvSbxf7w==
   dependencies:
     esbuild "^0.14.38"
 
