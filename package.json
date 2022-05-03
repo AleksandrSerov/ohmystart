@@ -37,7 +37,7 @@
 		"@commitlint/config-conventional": "^16.2.1",
 		"@cypress/webpack-preprocessor": "^5.9.1",
 		"@sserov/eslint-plugin-dirnames": "^1.0.0",
-		"@sserov/presets-lint": "0.0.8-62214a",
+		"@sserov/presets-lint": "^0.0.9",
 		"@testing-library/cypress": "^8.0.1",
 		"@types/jest": "^27.4.1",
 		"@types/react": "^18.0.5",
