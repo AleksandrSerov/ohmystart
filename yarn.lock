@@ -1604,9 +1604,9 @@
   dependencies:
     kebab-case "1.0.0"
 
-"@sserov/presets-lint@^0.0.9":
+"@sserov/presets-lint@0.0.9":
   version "0.0.9"
-  resolved "https://registry.yarnpkg.com/@sserov/presets-lint/-/presets-lint-0.0.9.tgz#8936548ef41df52e53af6f5fafa97017a47491d5"
+  resolved "https://registry.npmjs.org/@sserov/presets-lint/-/presets-lint-0.0.9.tgz#8936548ef41df52e53af6f5fafa97017a47491d5"
   integrity sha512-ZAHFyzEtEUxtYDajOtOrJY+EqhPPaoZlpy7TjeDs7kgX11zfPjMbrAqPdM0t4Nq8GbDno3ynwX9V0eUVLq0S5g==
   dependencies:
     esbuild "^0.14.38"
