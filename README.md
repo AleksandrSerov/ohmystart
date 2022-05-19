@@ -9,15 +9,15 @@ yarn start
 ```
 ## Scripts
 ```
-yarn start - start application
-yarn test - run all tests
-yarn test:unit - run unit tests
-yarn test:e2e - run e2e tests in headless mode
-yarn test:e2e:open - run e2e tests in headed mode
-yarn lint - run all linters
-yarn lint:css - lint css
+start - start application
+test - run all tests
+test:unit - run unit tests
+test:e2e - run e2e tests in headless mode
+test:e2e:open - run e2e tests in headed mode
+lint - run all linters
+lint:css - lint css
 lint:scripts - lint scripts
-yarn format - format code
+format - format code
 build - build app
 postinstall - install git hooks
 ```
