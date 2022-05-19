@@ -1,4 +1,12 @@
 # ohmystart
+
+## How to start
+```bash
+git clone git@github.com:AleksandrSerov/ohmystart.git
+cd ohmystart
+yarn install
+yarn start
+```
 ## Scripts
 ```
 yarn start - start application
