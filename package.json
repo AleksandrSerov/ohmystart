@@ -61,7 +61,7 @@
 		"parcel-transformer-ts-css-modules": "^1.0.14",
 		"postcss": "^8.3.8",
 		"postcss-custom-properties": "^12.1.4",
-		"postcss-import": "^14.0.2",
+		"postcss-import": "^14.1.0",
 		"postcss-modules": "^4.2.2",
 		"postcss-nested": "^5.0.6",
 		"postcss-url": "^10.1.3",
