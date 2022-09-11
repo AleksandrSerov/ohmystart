@@ -36,7 +36,7 @@
 	"devDependencies": {
 		"@commitlint/cli": "^16.3.0",
 		"@commitlint/config-conventional": "^16.2.4",
-		"@cypress/webpack-preprocessor": "^5.12.0",
+		"@cypress/webpack-preprocessor": "^5.12.2",
 		"@sserov/eslint-plugin-dirnames": "^1.0.0",
 		"@sserov/presets-lint": "0.0.11",
 		"@testing-library/cypress": "^8.0.3",
