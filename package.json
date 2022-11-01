@@ -28,7 +28,7 @@
 		"postinstall": "npx simple-git-hooks"
 	},
 	"dependencies": {
-		"classnames": "^2.3.1",
+		"classnames": "^2.3.2",
 		"parcel": "^2.7.0",
 		"react": "18.2.0",
 		"react-dom": "18.0.0"
