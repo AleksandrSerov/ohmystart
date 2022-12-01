@@ -41,7 +41,7 @@
 		"@sserov/presets-lint": "0.0.13",
 		"@testing-library/cypress": "^8.0.3",
 		"@types/jest": "^27.4.1",
-		"@types/react": "^18.0.17",
+		"@types/react": "^18.0.25",
 		"@types/react-dom": "^18.0.8",
 		"@typescript-eslint/eslint-plugin": "^4.32.0",
 		"@typescript-eslint/parser": "^4.32.0",
