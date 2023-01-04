@@ -40,7 +40,7 @@
 		"@prettier/eslint": "^15.0.1",
 		"@sserov/eslint-plugin-dirnames": "^1.0.0",
 		"@sserov/presets-lint": "0.0.17",
-		"@testing-library/cypress": "^8.0.3",
+		"@testing-library/cypress": "^8.0.7",
 		"@types/jest": "^27.4.1",
 		"@types/react": "^18.0.26",
 		"@types/react-dom": "^18.0.9",
