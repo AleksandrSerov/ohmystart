@@ -1587,7 +1587,7 @@
     tiny-glob "^0.2.9"
     tslib "^2.4.0"
 
-"@prettier/eslint@npm:prettier-eslint@^15.0.1", prettier-eslint@^15.0.1:
+"@prettier/eslint@^15.0.1", "@prettier/eslint@npm:prettier-eslint@^15.0.1", prettier-eslint@^15.0.1:
   version "15.0.1"
   resolved "https://registry.npmjs.org/prettier-eslint/-/prettier-eslint-15.0.1.tgz#2543a43e9acec2a9767ad6458165ce81f353db9c"
   integrity sha512-mGOWVHixSvpZWARqSDXbdtTL54mMBxc5oQYQ6RAqy8jecuNJBgN3t9E5a81G66F8x8fsKNiR1HWaBV66MJDOpg==
@@ -1645,10 +1645,10 @@
   dependencies:
     kebab-case "1.0.0"
 
-"@sserov/presets-lint@0.0.16":
-  version "0.0.16"
-  resolved "https://registry.npmjs.org/@sserov/presets-lint/-/presets-lint-0.0.16.tgz#688039d4387749d1a1cf204403b13ce3600319ab"
-  integrity sha512-8AgMsFl2GI3IhPhAA/leDRA1mPRQbkQ4pkJVp1iQ2i6EBqqQ03YJL3dEyvqev0hS0LkaVgSpzxErwSHIsvPkbA==
+"@sserov/presets-lint@0.0.17":
+  version "0.0.17"
+  resolved "https://registry.npmjs.org/@sserov/presets-lint/-/presets-lint-0.0.17.tgz#1d3f76412e07460c9cd321b016291af83ec4420c"
+  integrity sha512-63BXFAzsU/VJf4R0iNxrw3acYu1+rIm4jVFwgAm8RRO4uqDaMTkafwtVk4RBO7PJ52qT2YyOnMSs2g7ALo83Jw==
   dependencies:
     esbuild "^0.15.10"
 
@@ -7188,7 +7188,7 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@^2.5.1, prettier@^2.8.1:
+prettier@^2.5.1, prettier@^2.7.1:
   version "2.8.1"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.1.tgz#4e1fd11c34e2421bc1da9aea9bd8127cd0a35efc"
   integrity sha512-lqGoSJBQNJidqCHE80vqZJHWHRFoNYsSpP9AjFhlhi9ODCJA541svILes/+/1GM3VaL/abZi7cpFzOpdR9UPKg==
@@ -7682,9 +7682,9 @@ signal-exit@^3.0.7:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.7.tgz#a9a1767f8af84155114eaabd73f99273c8f59ad9"
   integrity sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==
 
-simple-git-hooks@^2.8.1:
+simple-git-hooks@^2.7.0:
   version "2.8.1"
-  resolved "https://registry.yarnpkg.com/simple-git-hooks/-/simple-git-hooks-2.8.1.tgz#05e8306f3211d7eee9f5fdb5cc42521280ee82a9"
+  resolved "https://registry.npmjs.org/simple-git-hooks/-/simple-git-hooks-2.8.1.tgz#05e8306f3211d7eee9f5fdb5cc42521280ee82a9"
   integrity sha512-DYpcVR1AGtSfFUNzlBdHrQGPsOhuuEJ/FkmPOOlFysP60AHd3nsEpkGq/QEOdtUyT1Qhk7w9oLmFoMG+75BDog==
 
 sisteransi@^1.0.5:
