@@ -21,7 +21,7 @@
 		"url": "git+https://github.com/AleksandrSerov/ohmystart.git"
 	},
 	"scripts": {
-		"start": "tsc --noEmit --watch & parcel ./src/index.html --port 8080 --watch-for-stdin",
+		"start": "rm -rf dist && parcel ./src/index.html --port 8080",
 		"test": "yarn test:unit && yarn test:e2e",
 		"test:unit": "jest",
 		"test:e2e": "start-server-and-test start :8080 \"cypress run\"",
