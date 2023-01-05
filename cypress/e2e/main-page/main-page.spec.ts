@@ -4,8 +4,6 @@ describe('main page', () => {
 	});
 
 	it('should work', () => {
-
-		cy.findByText('Hello world')
-			.should('exist');
+		cy.findByText('Hello world').should('exist');
 	});
 });
