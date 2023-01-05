@@ -29,7 +29,7 @@
 		"lint": "yarn lint:css && yarn lint:scripts && yarn ts:check",
 		"lint:css": "stylelint ./src/**/*.css",
 		"ts:check": "tsc --noemit",
-		"lint:scripts": "eslint \"**/*.{js,jsx,ts,tsx}\" --ext .js,.jsx,.ts,.tsx",
+		"lint:scripts": "eslint \"**/*.{js,jsx,ts,tsx}\"",
 		"format": "prettier-eslint --write \"./{src,cypress}/**/*.{ts,tsx,css}\"",
 		"build": "yarn ts:check && rm -rf dist && parcel build --no-source-maps ./src/index.html",
 		"postinstall": "npx simple-git-hooks"
