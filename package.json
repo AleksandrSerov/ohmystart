@@ -44,7 +44,6 @@
 		"@commitlint/cli": "^17.1.2",
 		"@commitlint/config-conventional": "^17.1.0",
 		"@cypress/webpack-preprocessor": "^5.16.1",
-		"@prettier/eslint": "^15.0.1",
 		"@sserov/eslint-plugin-dirnames": "^1.0.0",
 		"@sserov/presets-lint": "0.0.17",
 		"@testing-library/cypress": "^8.0.7",
