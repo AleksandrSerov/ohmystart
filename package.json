@@ -28,7 +28,7 @@
 		"test:e2e:open": "start-server-and-test start :8080 \"cypress open\"",
 		"lint": "yarn lint:css && yarn lint:scripts && yarn ts:check",
 		"lint:css": "stylelint ./src/**/*.css",
-		"ts:check": "tsc --noemit",
+		"ts:check": "tsc --noEmit",
 		"lint:scripts": "eslint \"**/*.{js,jsx,ts,tsx}\"",
 		"format": "prettier-eslint --write \"./{src,cypress}/**/*.{ts,tsx,css}\"",
 		"build": "yarn ts:check && rm -rf dist && parcel build --no-source-maps ./src/index.html",
