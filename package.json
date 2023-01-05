@@ -2,7 +2,14 @@
 	"name": "ohmystart",
 	"version": "1.0.0",
 	"description": "The easiest way to start up react app from scratch",
-	"keywords": [],
+	"keywords": [
+		"react",
+		"typescript",
+		"jest",
+		"css-modules",
+		"parcel",
+		"cypress"
+	],
 	"homepage": "https://github.com/AleksandrSerov/ohmystart#readme",
 	"bugs": {
 		"url": "https://github.com/AleksandrSerov/ohmystart/issues"
