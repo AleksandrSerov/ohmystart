@@ -68,6 +68,7 @@
 		"prettier": "^2.7.1",
 		"prettier-eslint": "^15.0.1",
 		"prettier-eslint-cli": "^7.1.0",
+		"process": "^0.11.10",
 		"simple-git-hooks": "^2.7.0",
 		"start-server-and-test": "^1.14.0",
 		"stylelint": "^14.3.0",
