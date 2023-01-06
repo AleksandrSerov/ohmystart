@@ -1608,6 +1608,13 @@
     posthtml-render "^3.0.0"
     semver "^5.7.1"
 
+"@parcel/ts-utils@2.8.2":
+  version "2.8.2"
+  resolved "https://registry.yarnpkg.com/@parcel/ts-utils/-/ts-utils-2.8.2.tgz#2a1d6ce57cce088ec313b773bd2860c7217d49cf"
+  integrity sha512-ahEUuL26bjGhKX+fMwK1dmvqzU0t3xWbm0mya81nPTXSZ0clN19yaW3+ei7/HMUmX/8H6tbmUp7a1/lyqsoYoQ==
+  dependencies:
+    nullthrows "^1.1.1"
+
 "@parcel/types@2.4.1", "@parcel/types@^2.0.0":
   version "2.4.1"
   resolved "https://registry.npmjs.org/@parcel/types/-/types-2.4.1.tgz"
@@ -1659,6 +1666,17 @@
     "@parcel/markdown-ansi" "2.8.2"
     "@parcel/source-map" "^2.1.1"
     chalk "^4.1.0"
+
+"@parcel/validator-typescript@^2.8.2":
+  version "2.8.2"
+  resolved "https://registry.yarnpkg.com/@parcel/validator-typescript/-/validator-typescript-2.8.2.tgz#885beb0a19ef7e64ac9491cc32dfbd8d12a2561d"
+  integrity sha512-sqtvoMnV3in+/MFRQXGutHF7JXXSPJoyefwIk5XkUX/A6VtSiKH2YCEu6WLhYFdtGc5eA7jqBW/G4MBuGYviCQ==
+  dependencies:
+    "@parcel/diagnostic" "2.8.2"
+    "@parcel/plugin" "2.8.2"
+    "@parcel/ts-utils" "2.8.2"
+    "@parcel/types" "2.8.2"
+    "@parcel/utils" "2.8.2"
 
 "@parcel/watcher@^2.0.0":
   version "2.0.5"
