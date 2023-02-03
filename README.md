@@ -1,9 +1,9 @@
 <h1>Oh my start</h1>
 <p align="center">
-<img src="./logo.png" width="300" alt="Logo">
+  <img src="./logo.png" width="300" alt="Logo">
 </p>
 <p align="center">
-<img src="https://github.com/AleksandrSerov/ohmystart/actions/workflows/ci.yml/badge.svg" alt="CI>
+  <img src="https://github.com/AleksandrSerov/ohmystart/actions/workflows/ci.yml/badge.svg" alt="CI">
 </p>
 
 ## About
