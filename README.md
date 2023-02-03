@@ -1,7 +1,7 @@
 <div style="text-align: center">
     <h1>Oh my start</h1>
     <p>
-        <img src="./logo_marble.png" width="300" alt="Logo">
+        <img src="./logo.png" width="300" alt="Logo">
     </p>
 </div>
 
