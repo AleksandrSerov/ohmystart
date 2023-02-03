@@ -1,4 +1,4 @@
-<h1>Oh my start</h1>
+<h1 align="center">Oh my start</h1>
 <p align="center">
   <img src="./logo.png" width="300" alt="Logo">
 </p>
