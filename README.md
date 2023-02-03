@@ -1,13 +1,23 @@
-# ohmystart
+<div style="text-align: center">
+    <h1>Oh my start</h1>
+    <p>
+        <img src="./logo_marble.png" width="300" alt="Logo">
+    </p>
+</div>
+
 ![CI](https://github.com/AleksandrSerov/ohmystart/actions/workflows/ci.yml/badge.svg)
+
 ## How to start
+
 ```bash
 git clone git@github.com:AleksandrSerov/ohmystart.git
 cd ohmystart
 yarn install
 yarn start
 ```
+
 ## Scripts
+
 ```
 start - start application
 test - run all tests
