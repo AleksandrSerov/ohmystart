@@ -1,11 +1,14 @@
-<div style="text-align: center">
-    <h1>Oh my start</h1>
-    <p>
-        <img src="./logo.png" width="300" alt="Logo">
-    </p>
-</div>
+<h1>Oh my start</h1>
+<p align="center">
+<img src="./logo.png" width="300" alt="Logo" />
+</p>
+<p align="center">
+<img src="https://github.com/AleksandrSerov/ohmystart/actions/workflows/ci.yml/badge.svg" alt="CI>
+</p>
 
-![CI](https://github.com/AleksandrSerov/ohmystart/actions/workflows/ci.yml/badge.svg)
+## About
+
+This is template project for painless start react application
 
 ## How to start
 
