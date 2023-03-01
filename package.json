@@ -43,7 +43,7 @@
 	"devDependencies": {
 		"@commitlint/cli": "^17.1.2",
 		"@commitlint/config-conventional": "^17.1.0",
-		"@cypress/webpack-preprocessor": "^5.16.1",
+		"@cypress/webpack-preprocessor": "^5.17.0",
 		"@parcel/validator-typescript": "^2.8.2",
 		"@prettier/eslint": "^15.0.1",
 		"@sserov/eslint-plugin-dirnames": "^1.0.0",
