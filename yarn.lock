@@ -3256,10 +3256,10 @@ csstype@^3.0.2:
   resolved "https://registry.npmjs.org/csstype/-/csstype-3.0.10.tgz"
   integrity sha512-2u44ZG2OcNUO9HDp/Jl8C07x6pU/eTR3ncV91SiK3dhG9TWvRVsCoJw14Ckx5DgWkzGA3waZWO3d7pgqpUI/XA==
 
-cypress@^12.5.0:
-  version "12.5.0"
-  resolved "https://registry.yarnpkg.com/cypress/-/cypress-12.5.0.tgz#e2070d9351944f79fd8688fc7ec0bfdf91c30e1e"
-  integrity sha512-CRo1DIr0LoCE3SNb/kJ0TZM9dIdiy7fNlRp/YoPfAv+XOKZV27LQ7zZUi4lMmHIEo3K0dAN5+tJ/8eZc/Jmbyg==
+cypress@^12.9.0:
+  version "12.9.0"
+  resolved "https://registry.yarnpkg.com/cypress/-/cypress-12.9.0.tgz#e6ab43cf329fd7c821ef7645517649d72ccf0a12"
+  integrity sha512-Ofe09LbHKgSqX89Iy1xen2WvpgbvNxDzsWx3mgU1mfILouELeXYGwIib3ItCwoRrRifoQwcBFmY54Vs0zw7QCg==
   dependencies:
     "@cypress/request" "^2.88.10"
     "@cypress/xvfb" "^1.2.4"
@@ -3278,7 +3278,7 @@ cypress@^12.5.0:
     commander "^5.1.0"
     common-tags "^1.8.0"
     dayjs "^1.10.4"
-    debug "^4.3.2"
+    debug "^4.3.4"
     enquirer "^2.3.6"
     eventemitter2 "6.4.7"
     execa "4.1.0"
